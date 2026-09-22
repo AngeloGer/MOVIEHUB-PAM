@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MovieHub",
+    "slug": "MovieHub",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/MovieHubText.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icons/MovieHubText.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/MovieHubText.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/icons/MovieHubText.png"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
