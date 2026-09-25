@@ -8,8 +8,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#f8f6f6',
     borderRadius: 25,
     paddingHorizontal: 18,
-    marginVertical: 12,
-    marginHorizontal: 8,
   },
 
   input: {

@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   containerInputPicker: {
     backgroundColor: '#f8f6f6',
     borderRadius: 20,
-    paddingHorizontal: 12,
+    paddingHorizontal: 8,
   },
 
   inputPicker: {

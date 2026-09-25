@@ -26,6 +26,13 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
   },
 
+  containerDouble: {
+    flex: 1,
+    flexDirection: 'row',
+    marginHorizontal: 12,
+    marginVertical: 8,
+  },
+
   pressableScroll: {
     textAlign: 'center',
     marginHorizontal: 8,
@@ -52,6 +59,11 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     marginHorizontal: 10,
     marginVertical: 6,
+  },
+
+  containerSearch: {
+    marginHorizontal: 8,
+    marginVertical: 8,
   },
 
 });

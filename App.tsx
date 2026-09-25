@@ -6,7 +6,7 @@ import { Navigation } from './navigation/MainTabs';
 export default function App() {
   return (
     <SafeAreaProvider>
-      <MovieCreate />
+      <Movies />
     </SafeAreaProvider>
   );
 }

@@ -11,6 +11,32 @@ const styles = StyleSheet.create({
     marginVertical: 8,
   },
 
+  containerInfoDouble: {
+    flex: 1,
+    flexDirection: 'row',
+    marginHorizontal: 12,
+    marginVertical: 8,
+  },
+
+  containerStars: {
+    marginVertical: 12,
+  },
+
+  title: {
+    color: '#000000',
+    fontSize: 24,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+
+  flex: {
+    flex: 1,
+  },
+
+  marginRight: {
+    marginRight: 8,
+  },
+
 });
 
 export default styles;

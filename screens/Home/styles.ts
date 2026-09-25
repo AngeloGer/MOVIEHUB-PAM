@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   },
 
   containerList: {
-    marginLeft: 6,
+    marginLeft: 8,
     marginBottom: 10,
   },
 
@@ -47,6 +47,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#000000',
     marginBottom: 4,
+  },
+
+  containerSearch: {
+    marginHorizontal: 8,
+    marginVertical: 8,
   },
 
 });

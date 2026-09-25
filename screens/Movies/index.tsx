@@ -1,6 +1,6 @@
 import { Text, View, Image, ScrollView, Pressable } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { AppButton, SearchBar } from "../../src/components";
+import { AppButtonSquare, SearchBar } from "../../src/components";
 import styles from "./styles";
 
 export default function Movies() {
@@ -9,7 +9,11 @@ export default function Movies() {
 
     <SafeAreaView style={styles.containerPai}>
       <Text style={styles.title}>Filmes</Text>
-      <SearchBar/>
+      <View style={styles.containerDouble}>
+        <View style={styles.containerSearch}>
+          <SearchBar/>
+        </View>
+      </View>
       <View>
         <ScrollView horizontal style={styles.containerScrollOpt}>
           <Pressable 

@@ -22,9 +22,24 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 
+  buttonSquare: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#3ad1ff',
+    width: 55,
+    height: 55,
+    borderRadius: 15,
+    paddingVertical: 15,
+    paddingHorizontal: 15,
+  },
+
   pressed: {
     opacity: 0.75, // Dims button slightly when touched
-  }
+  },
+
+  icon: {
+    marginRight: 8,
+  },
   
 });
 

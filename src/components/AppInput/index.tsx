@@ -3,8 +3,9 @@ import { TextInput, View } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import styles from "./styles";
 
-interface AppInputProp {
+interface AppInputProps {
     message?: string;
+    defHeight?: number;
 };
 
 interface PickerOption {
@@ -21,7 +22,7 @@ interface AppInputPickerProp {
 
 
 
-export const AppInput = ({message}: AppInputProp) => {
+export const AppInput = ({message}: AppInputProps) => {
 
 const [isFocused, setIsFocused] = useState(false);
 
@@ -42,7 +43,7 @@ const [isFocused, setIsFocused] = useState(false);
     );
 };
 
-export const AppInputSmall = ({message}: AppInputProp) => {
+export const AppInputSmall = ({message}: AppInputProps) => {
 
     return (
         <View style={styles.containerInputTextSmall}>

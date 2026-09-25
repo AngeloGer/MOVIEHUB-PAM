@@ -1,12 +1,14 @@
 import { Pressable, Text } from 'react-native';
+import { Feather } from '@react-native-vector-icons/feather';
 import styles from "./styles";
 
-interface AppButtonProp {
+interface AppButtonProps {
     text?: string;
+    icon?: string;
 };
 
 
-export const AppButton = ({text}:AppButtonProp ) => {
+export const AppButton = ({text}:AppButtonProps ) => {
     return (
         <Pressable 
             style={({ pressed }) => [
@@ -19,15 +21,15 @@ export const AppButton = ({text}:AppButtonProp ) => {
     );
 };
 
-export const AppButtonSquare = ({text}:AppButtonProp ) => {
+export const AppButtonSquare = ({icon}:AppButtonProps ) => {
     return (
         <Pressable 
             style={({ pressed }) => [
-                styles.button,
+                styles.buttonSquare,
                 pressed && styles.pressed
             ]}
         >
-            <Text style={styles.buttonText}>{text}</Text>
+        <Feather name='plus' size={20}/>
         </Pressable>
     );
 };
