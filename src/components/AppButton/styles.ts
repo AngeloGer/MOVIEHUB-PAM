@@ -1,9 +1,16 @@
 import { StyleSheet } from 'react-native';
 
+//Cor padrão para os botões: 
+// #3ad1ff
+// #3ad1ff
+// #3ad1ff
+// #3ad1ff
+// #3ad1ff
+// #3ad1ff
+
 const styles = StyleSheet.create({
 
   button: {
-    backgroundColor: '#3ad1ff',
     borderRadius: 25,
     paddingVertical: 14,
     paddingHorizontal: 32,
@@ -25,7 +32,6 @@ const styles = StyleSheet.create({
   buttonSquare: {
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#3ad1ff',
     width: 55,
     height: 55,
     borderRadius: 15,

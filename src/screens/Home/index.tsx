@@ -1,6 +1,6 @@
 import { Text, View, Image, ScrollView } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { AppButtonSquare, MovieCard, SearchBar } from "../../src/components";
+import { AppButtonSquare, MovieCard, SearchBar } from "../../components";
 import iconMovie from "../../assets/icons/iconMovie.png"
 import styles from "./styles";
 

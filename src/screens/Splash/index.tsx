@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { ActivityIndicator, Text, View, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import iconMovieHub from "../../assets/icons/MovieHubText.png"
+import iconMovieHub from "../../../assets/icons/MovieHubText.png"
 import styles from "../Splash/styles";
 
 interface LoadingIndicatorProp {

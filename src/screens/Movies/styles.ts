@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
   containerDouble: {
     flex: 1,
     flexDirection: 'row',
+    alignItems: 'center',
     marginHorizontal: 12,
     marginVertical: 8,
   },
@@ -62,9 +63,12 @@ const styles = StyleSheet.create({
   },
 
   containerSearch: {
-    marginHorizontal: 8,
-    marginVertical: 8,
+    flex: 1,
   },
+
+  containerButton: {
+    marginHorizontal: 6,
+  }
 
 });
 

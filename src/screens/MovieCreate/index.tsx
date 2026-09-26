@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Text, View, Image, ScrollView } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { AppButton, AppInputSmall, AppInputPicker, RatingStars } from "../../src/components";
+import { AppButton, AppInputSmall, AppInputPicker, RatingStars } from "../../components";
 import iconMovie from "../../assets/icons/iconMovie.png"
 import styles from "./styles";
 
