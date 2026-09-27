@@ -27,7 +27,6 @@ const styles = StyleSheet.create({
   },
 
   containerDouble: {
-    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     marginHorizontal: 12,

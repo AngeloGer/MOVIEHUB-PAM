@@ -3,7 +3,7 @@ import React from "react";
 import { Text, View, TextInput, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { AppButton, AppInput } from "../../components";
-import iconMovie from "../../assets/icons/iconMovie.png"
+import iconMovie from "../../../assets/icons/MovieHubText.png"
 import styles from "./styles";
 
 export default function Login() {
@@ -18,7 +18,7 @@ export default function Login() {
                 <AppInput message="Seuemail@email.com"/>
                 <AppInput message="Mínimo de 6 caracteres"/>
                 <View style={{alignItems: 'flex-end'}}>
-                    <AppButton text="Login"/>
+                    <AppButton text="Login" color="#3ad1ff"/>
                 </View>
             </View>
         </SafeAreaView>

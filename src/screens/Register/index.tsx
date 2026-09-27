@@ -16,7 +16,7 @@ export default function Register() {
                 <AppInput message="Mínimo de 6 caracteres"/>
                 <AppInput message="Digite sua senha novamente"/>
                 <View style={{alignItems: 'flex-end'}}>
-                    <AppButton text="Cadastrar"/>
+                    <AppButton text="Cadastrar" color="#3ad1ff"/>
                 </View>
             </View>
         </SafeAreaView>
