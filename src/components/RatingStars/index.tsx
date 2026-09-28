@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import StarRating from 'react-native-star-rating-widget';
-import { View } from 'react-native';
 
 interface RatingStarsProps {
     rating?: number;
@@ -9,16 +8,20 @@ interface RatingStarsProps {
     color?: string;
 };
 
-export const RatingStars = ({rating, onChange, starSize, color}: RatingStarsProps ) => {
+export const RatingStars = ({ rating = 0, onChange, starSize = 24, color = '#f5c542' }: RatingStarsProps) => {
+    const [rate, setRate] = useState(rating);
 
-const [rate, setRate] = useState(0);
+    const handleChange = (nextValue: number) => {
+        setRate(nextValue);
+        onChange?.(nextValue);
+    };
 
     return (
-        <StarRating 
-            rating={rate} 
-            onChange={setRate}
+        <StarRating
+            rating={rate}
+            onChange={handleChange}
             starSize={starSize}
-
+            color={color}
         />
     );
 };

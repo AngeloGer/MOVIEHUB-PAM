@@ -9,7 +9,6 @@ export default function Home() {
     return (
 
         <SafeAreaView style={styles.containerPai}>
-            <ScrollView>
             <View style={styles.containerIntro}>
                 <Text style={styles.introText}>Olá, User ✋</Text>
                 <Text style={styles.introSubText}>Desfrute de seus filmes</Text>
@@ -57,7 +56,6 @@ export default function Home() {
                     <MovieCard/>
                 </ScrollView>
             </View>
-            </ScrollView>
         </SafeAreaView>
     );
 };

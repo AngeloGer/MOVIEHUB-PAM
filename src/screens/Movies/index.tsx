@@ -1,9 +1,14 @@
 import { Text, View, Image, ScrollView, Pressable } from "react-native";
+import { useNavigation } from '@react-navigation/native';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import type { RootStackParamList } from '../../navigation/MovieStack';
 import { SafeAreaView } from "react-native-safe-area-context";
 import { AppButtonSquare, SearchBar } from "../../components";
 import styles from "./styles";
 
 export default function Movies() {
+
+  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
 
   return (
 
@@ -16,7 +21,11 @@ export default function Movies() {
         <View style={styles.containerButton}>
           <AppButtonSquare icon="sliders" color="#b4bec0"/>
         </View>
-        <AppButtonSquare icon="plus" color="#3ad1ff"/>
+        <AppButtonSquare icon="plus" color="#3ad1ff"
+          onPress={
+            () => navigation.navigate('MovieCreate')
+          }
+        />
       </View>
       <View>
         <ScrollView horizontal style={styles.containerScrollOpt}>

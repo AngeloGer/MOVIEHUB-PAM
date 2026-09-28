@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 //Cor padrão para os botões: 
 // #3ad1ff
 // #6b6a6a
-// #3ad1ff
+// #ff8080
 // #3ad1ff
 // #3ad1ff
 // #3ad1ff

@@ -7,12 +7,14 @@ interface AppButtonProps {
     text?: string;
     color?: string;
     icon?: ComponentProps<typeof Feather>['name'];
+    onPress?: () => void;
 };
 
 
-export const AppButton = ({color, text}:AppButtonProps ) => {
+export const AppButton = ({color, text, onPress}:AppButtonProps ) => {
     return (
         <Pressable 
+            onPress={onPress}
             style={({ pressed }) => [
                 styles.button,
                 color ? { backgroundColor: color } : undefined,
@@ -24,9 +26,10 @@ export const AppButton = ({color, text}:AppButtonProps ) => {
     );
 };
 
-export const AppButtonSquare = ({color, icon = 'plus'}:AppButtonProps ) => {
+export const AppButtonSquare = ({color, icon = 'plus', onPress}:AppButtonProps ) => {
     return (
         <Pressable 
+            onPress={onPress}
             style={({ pressed }) => [
                 styles.buttonSquare,
                 color ? { backgroundColor: color } : undefined,

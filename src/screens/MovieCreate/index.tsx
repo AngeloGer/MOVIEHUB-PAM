@@ -26,10 +26,7 @@ const statusOptions = [
 
   return (
     <SafeAreaView style={styles.containerPai}>
-      <Text style={styles.title}>Novo Filme</Text>
-      <View style={styles.containerInfo}>
-        <Text>Adicionar Capa do Filme</Text>
-      </View>
+      <Text>Adicionar Capa do Filme</Text>
       <View style={styles.containerInfo}>
         <Text>Título</Text>
         <AppInputSmall
@@ -98,6 +95,7 @@ const statusOptions = [
       </View>
       <AppButton
         text="Adicionar filme"
+        color="#3ad1ff"
       />
     </SafeAreaView>
  );

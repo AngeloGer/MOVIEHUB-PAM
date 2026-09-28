@@ -1,16 +1,17 @@
 import { createStaticNavigation } from '@react-navigation/native';
 import { createBottomTabNavigator, createBottomTabScreen } from '@react-navigation/bottom-tabs';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Feather } from '@react-native-vector-icons/feather';
-import { Home, Movies } from '../screens';
+import { Home, Movies, MovieCreate } from '../screens';
 
 export const MainTabs = createBottomTabNavigator({
   screenOptions: {
     headerShown: false,
+    tabBarActiveTintColor: '#0093a6',
+    tabBarInactiveTintColor: '#6b6a6a',
     tabBarStyle: {
       backgroundColor: '#fff',
       borderTopWidth: 0,
-      tabBarActiveTintColor: '#0093a6',
-      tabBarInactiveTintColor: '#6b6a6a',
     },
     
   },
@@ -36,4 +37,21 @@ export const MainTabs = createBottomTabNavigator({
   },
 });
 
-export const Navigation = createStaticNavigation(MainTabs);
+const MovieStack = createNativeStackNavigator({
+  screens: {
+    MainTabs: {
+      screen: MainTabs,
+      options: {
+        headerShown: false,
+      },
+    },
+    MovieCreate: {
+      screen: MovieCreate,
+      options: {
+        headerTitle: 'Novo Filme',
+      },
+    },
+  },
+});
+
+export const Navigation = createStaticNavigation(MovieStack);

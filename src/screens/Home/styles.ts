@@ -3,6 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
 
   containerPai: {
+    flex: 1,
     backgroundColor: '#fff',
   },
 
