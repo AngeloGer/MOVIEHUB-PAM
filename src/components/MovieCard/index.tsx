@@ -1,5 +1,5 @@
 import { Text, View, Image } from "react-native";
-import posterMovie from "../../../assets/images/movieimgs/darkknightmovie.png";
+import posterMovie from "../../../assets/images/movieimgs/poster.png";
 import styles from "./styles";
 
 interface MovieCardProp {

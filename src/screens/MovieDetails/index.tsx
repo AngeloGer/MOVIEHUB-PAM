@@ -1,19 +1,19 @@
 import { Text, View, Image, ScrollView } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { AppButton, AppButtonSquare, RatingStars } from "../../components";
-import posterMovie from "../../../assets/images/movieimgs/darkknightmovie.png";
+import posterMovie from "../../../assets/images/movieimgs/poster.png";
 import styles from "./styles";
 
 const movie = {
-  title: "The Dark Knight",
-  year: 2008,
+  title: "Filme genérico",
+  year: 2026,
   genre: "Ação",
-  duration: "2h 32min",
-  director: "Christopher Nolan",
+  duration: "2h 05min",
+  director: "Nome Diretor",
   status: "Assistido",
   rating: 4.5,
   description:
-    "Batman enfrenta o Coringa, um vilão que pretende transformar Gotham em caos total. Com suspense, ação e uma trama intensa, o filme se consolida como um dos maiores da história do gênero.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 };
 
 export default function MovieDetails() {
