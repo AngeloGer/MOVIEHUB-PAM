@@ -1,6 +1,6 @@
 ﻿# 🎥 MovieHub
 
-![Banner MovieHub](https://github.com/AngeloGer/MOVIEHUB-PAM/assets/images/banner.png)
+![Banner MovieHub](https://raw.githubusercontent.com/AngeloGer/MOVIEHUB-PAM/refs/heads/main/assets/images/banner.png)
 
 ##### 🚧Atenção!🚧<br>O projeto está sujeito a alterações,<br>pois ainda está em desenvolvimento
 
