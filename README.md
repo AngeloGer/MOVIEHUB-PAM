@@ -14,7 +14,7 @@ O objetivo do projeto é criar um aplicativo simples que possa organizar listas 
 
 O projeto possui:
 
-- Tela deLogin de usuários
+- Tela de Login de usuários
 - Tela de Cadastro de usuários
 - Tela de Cadastro de filmes
 - Navegação entre telas principais
@@ -33,6 +33,7 @@ O projeto possui:
 
 ## Estrutura do Projeto
 
+```
 MovieHub/
 ├── .claude
 ├── assets
@@ -59,7 +60,7 @@ MovieHub/
 ├── package.json
 ├── README.md
 └── tsconfig.json
-
+```
 No diretório de assets ficam os arquivos usados pelo app para sua interface, como fontes, ícones do MovieHub e posters.
 No diretório de src fica os componentes, telas, APIs, serviços, basicamente todo o código do projeto.
 
@@ -73,8 +74,11 @@ No diretório de src fica os componentes, telas, APIs, serviços, basicamente to
 1. Clone o repositório
 2. Acesse a pasta do projeto
 3. Instale as dependências usando:
+
 `npx expo install`
-4. Aceite qualquer pergunta do terminal apertando Y, e depois da instalação execute:
+
+5. Aceite qualquer pergunta do terminal apertando Y, e depois da instalação execute:
+
 `npx expo start`
 
 O projeto vai iniciar e então você pode ver o projeto via seu celular (Expo Go), navegador ou um emulador de android.
