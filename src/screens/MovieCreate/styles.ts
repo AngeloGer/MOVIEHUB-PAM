@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     marginVertical: 8,
   },
 
-  containerInfoDouble: {
+  containerRow: {
     flex: 1,
     flexDirection: 'row',
     marginHorizontal: 12,

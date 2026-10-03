@@ -42,7 +42,7 @@ const statusOptions = [
           onValueChange={(itemValue) => setSelectedGenre(itemValue)}
         />
       </View>
-      <View style={styles.containerInfoDouble}>
+      <View style={styles.containerRow}>
         <View style={[styles.flex, styles.marginRight]}>
           <Text>Data de Lançamento</Text>
           <AppInputSmall
@@ -68,7 +68,7 @@ const statusOptions = [
           message="Escreva uma descrição para o filme"
         />
       </View>
-      <View style={styles.containerInfoDouble}>
+      <View style={styles.containerRow}>
         <View>
           <Text>Nota (0 a 5)</Text>
           <View style={styles.containerStars}>
