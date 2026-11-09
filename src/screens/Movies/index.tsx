@@ -14,7 +14,7 @@ export default function Movies() {
 
     <SafeAreaView style={styles.containerPai}>
       <Text style={styles.title}>Filmes</Text>
-      <View style={styles.containerDouble}>
+      <View style={styles.containerRow}>
         <View style={styles.containerSearch}>
           <SearchBar/>
         </View>

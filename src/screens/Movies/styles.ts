@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
   },
 
-  containerDouble: {
+  containerRow: {
     flexDirection: 'row',
     alignItems: 'center',
     marginHorizontal: 12,
